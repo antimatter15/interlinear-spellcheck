@@ -1,0 +1,43 @@
+.CodeMirror {
+    font-family: Avenir, sans-serif;
+    color: black;
+    font-size: 20pt;
+    line-height: 2em;
+
+    position: absolute;
+    overflow: hidden;
+    background: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.CodeMirror-lines {
+    padding: 50px 0;
+}
+
+.CodeMirror pre {
+    padding: 0 100px;
+}
+
+.unknown {
+	color: #c73c3c;
+}
+
+.interlinear {
+    font-size: small;
+    margin-top: -0.85em;
+    line-height: 1em;
+    color: #585858;
+    z-index: 2;
+}
+
+.interlinear a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.interlinear a:hover {
+	text-decoration: underline;
+}

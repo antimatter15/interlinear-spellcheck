@@ -1,0 +1,18 @@
+{
+  "name": "interlinear-spellcheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "codemirror": "^5.22.0",
+    "dictionary-en-us": "^1.2.0",
+    "findandreplacedomtext": "^0.4.4",
+    "nspell": "^1.0.2"
+  }
+}
